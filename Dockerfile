@@ -1,4 +1,4 @@
-FROM golang:1.7.3
+FROM golang:1.14.1
 WORKDIR /go/src/github.com/solaris-ventus/kaniko
 RUN go get -d -v golang.org/x/net/html  
 COPY hello.go .
