@@ -5,5 +5,5 @@ docker run \
 	-v /home/solaris/kaniko:/workspace \
 	gcr.io/kaniko-project/executor:latest \
 	--dockerfile /workspace/Dockerfile \
-	--destination "volobuev/mtbt:0.0.1" \
+	--destination "volobuev/mtbt:0.0.2" \
 	--context "dir:///workspace/"
